@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function MemeTextSetter(props) {
   return (
-    <div>
+    <div id='meme'>
       <p className='toptext'>{props.toptext}</p>
        <img src={props.memeImage} alt={props.alt}
         className='memeImg'></img>

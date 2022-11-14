@@ -82,4 +82,24 @@ input {
   width: 100%;
   word-wrap: break-word;
   text-align: center;
+  background-color: white;
+}
+@media screen and (max-width:500px) {
+  .memeGenerator{
+    width: 95vw;
+    margin: 0;
+  }
+  .header{
+    width: 100%;
+    font-size: 10px;
+  }
+  .marginAuto{
+    margin:  30px 10px;
+    width: 90vw;
+  }
+  .meme{
+    width: 80vw;
+    margin: 30px auto;
+  }
+  
 }
